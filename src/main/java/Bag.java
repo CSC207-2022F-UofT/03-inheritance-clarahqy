@@ -18,7 +18,7 @@ public abstract class Bag {
     private String color;
     private int numberOfContents;
     private int capacity;
-    private ArrayList<String> contents;
+    private ArrayList<String> contents = new ArrayList<String>();
 
 
 
